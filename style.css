@@ -1,0 +1,78 @@
+body{
+  background-color: lightyellow;
+  color:cadetblue;
+  margin: 2rem;
+  font-family: "Roboto Condensed";
+}
+h1{
+  text-align: center;
+  animation: colora 10s ease-in-out infinite;
+}
+
+/*Airplane*/
+.Airplane {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2708.png) 36 36, auto;
+}
+/*Compass*/
+.Compass {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f9ed.png) 36 36, auto;
+}
+/*Luggage*/
+.Luggage {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f9f3.png) 36 36, auto;
+}
+section{
+  display: flex;
+  padding: 2rem;
+}
+figure{
+  display:flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+}
+img{
+  width: 
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*color changing animation*/ 
+@keyframes colora {
+  0% {color:#8CBEB2;}
+  20%{color:#F2EBBF;}
+  40%{color:#F3B562;}
+  60%{color:#F06060;}
+  80%{color:#5C4B51;}
+  100%{color:#8CBEB2;}
+}
+button{
+  background-color:cadetblue;
+  color:lightyellow;
+  padding: 10px;
+}
